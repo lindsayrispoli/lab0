@@ -5,6 +5,7 @@ f = open('encrypt.txt', 'r')
 
 #read encrypted message into variable, contents 
 contents = f.read()
+f.close()
 
 #Set the shift equal to 0 from the beginning 
 shift = 0
